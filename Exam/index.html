@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        header {
+            background-color: #8db1f3;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+        }
+
+        header .logo img {
+            max-width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 150px;
+        }
+		.foto {
+            width: 200px;
+            height: 300px;
+            border-radius: 6px;
+        }
+        .foto1 {
+            width: 200px;
+            height: 170px;
+            border-radius: 6px;
+        }
+        .href{
+        	color: #F0DC82;
+        	font-size: 40px;
+            margin-right: 50px;
+        }
+        .href1{
+        	color: #FFFFFF;
+        	font-size: 18px;
+        }
+        .recent-ads {
+            text-align: center;
+            padding: 0px;
+            background-color: #fff;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        
+
+        .recent-ads h2 {
+            color: #3498db;
+        }
+
+        .recent-ads .slider-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .slide {
+            width: 300px;
+            height: 400px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            background-color: #fff;
+        }
+
+        
+        .slide img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .details-button {
+            display: block;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .details-button:hover {
+            background-color: #2980b9;
+        }
+
+        .gg {
+            text-align: center;
+            
+        }
+
+        .gg h2 {
+            color: #ffffff;
+        }
+        
+        .animal-cards {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 1300px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #ff0000;
+            justify-content: space-around;
+            border-radius: 20px;
+            
+        }
+
+        .animal-cards h2 {
+            color: #3498db;
+        }
+
+        .animal-card {
+            width: 400px;
+            height: 240px;
+            margin-bottom: 30px;
+            border: 2px solid #ccc;
+            padding: 10px ;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #505050;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: auto;
+        }
+
+        footer nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        footer nav ul li {
+            margin: 0 10px;
+        }
+
+        .body {
+    border: 1px solid #CCC;
+    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNsMDhkMmUzaTEwdjV2bXl2bHY3b3RjcXk5bm5nZTFlOTRtcDl1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S3azrhWupBm61PszDr/giphy.gif) center center no-repeat;
+    background-size: cover; 
+  }
+    </style>
+</head>
+<body class="body">
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul> 
+                <li><a href="#" class="href">Новости</a></li>
+                <li><a href="#" class="href">Личный кабинет</a></li>
+                <li><a href="#" class="href">Отзывы</a></li>
+                <input type="text" placeholder="" class="href">
+                <li><a href="#" class="href">Поиск</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br></br>
+    
+<br></br>
+<section class="gg">
+	<h2>Товары</h2>
+<section class="animal-cards">
+    <div class="animal-card">
+        <img src="images/leck1.png" alt="Цетрин таблетки" class="foto1">
+        <p>Производитель: Dr. Reddy`s Laboratories</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck2.png" alt="Бак-сет форте капсулы" class="foto1">
+        <p>Производитель: ADM Protexing Ltd</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck3.png" alt="Кролик" class="foto1">
+        <p>Производитель: ADM Protexing Ltd</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck4.png" alt="Попугай" class="foto1">
+        <p>Производитель: C.К. Терапия С.А., Румыния</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck5.png" alt="Хомяк" class="foto1">
+        <p>Производитель: Вакунага Америка Кo., ЛТД, США</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck6.png" alt="Черепаха" class="foto1">
+        <p>Производитель: Вакунага Америка Кo., ЛТД, США</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck7.png" alt="Черепаха" class="foto1">
+        <p>Район: Юго-Восточный</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck8.png" alt="Черепаха" class="foto1">
+        <p>Район: Юго-Восточный</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+    <div class="animal-card">
+        <img src="images/leck9.png" alt="Черепаха" class="foto1">
+        <p>Район: Юго-Восточный</p>
+        <a href="подробнее.html" class="details-button">Подробнее</a>
+    </div>
+</section>
+</section>
+<br></br>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var sliderContainer = document.querySelector('.slider-container');
+            var slides = document.querySelectorAll('.slide');
+            var totalSlides = slides.length;
+            var currentIndex = 0;
+
+            function showSlides() {
+                for (var i = 0; i < totalSlides; i++) {
+                    slides[i].style.display = 'none';
+                }
+
+                for (var i = currentIndex; i < currentIndex + 2; i++) {
+                    if (i < totalSlides) {
+                        slides[i].style.display = 'block';
+                    }
+                }
+
+                currentIndex += 2;
+
+                if (currentIndex >= totalSlides) {
+                    currentIndex = 0;
+                }
+
+                setTimeout(showSlides, 3000);
+            }
+
+            showSlides();
+
+            // Функция для переключения на предыдущие слайды
+            function prevSlide() {
+                currentIndex -= 4; // Переключаемся на два предыдущих слайда
+                if (currentIndex < 0) {
+                    currentIndex = totalSlides - 2; // Возвращаемся к последним двум слайдам
+                }
+                showSlides();
+            }
+
+            // Функция для переключения на следующие слайды
+            function nextSlide() {
+                showSlides();
+            }
+        });
+    </script>
+
+<footer>
+    <p>Телефон: 8 (920) 111-66-99</p>
+    <p>Email: Emeliyanov@yandex.ru</p>
+    <nav>
+        <ul>
+            <li><a href="#" class="href1">Главная</a></li>
+            <li><a href="#" class="href1">Регистрация</a></li>
+            <li><a href="#" class="href1">Авторизация</a></li>
+            <li><a href="#" class="href1">Личный кабинет</a></li>
+            <li><a href="#" class="href1">Поиск</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
